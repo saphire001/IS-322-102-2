@@ -89,7 +89,7 @@ class App extends  React.Component {
       return (this.wrapPage(<Add tasks={this.state.sortedTasks} onSubmit={this.onAddTask.bind(this)} />));
     }
     else {
-      return (this.wrapPage(<h2>Invalid</h2>));
+      return (this.wrapPage(<h2>Invalid Tab, choose another</h2>));
     }
   }
 }
