@@ -92,7 +92,7 @@ class View extends React.Component {
             return(
                 <div className="container">
                     <div className="mobile-nav">
-                        <h3>Select a column to view:</h3>
+                        <h3>Select:</h3>
                         <select id="columns">
                             <option value="todo">To Do</option>
                             <option value="in-progress">In Progress</option>
@@ -138,7 +138,7 @@ class View extends React.Component {
                 return (
                     <div className="container">
                         <div className="mobile-nav">
-                            <h3>Select a column to view:</h3>
+                            <h3>Select:</h3>
                             <select id="columns">
                                 <option value="todo">To Do</option>
                                 <option value="in-progress">In Progress</option>
@@ -165,7 +165,7 @@ class View extends React.Component {
                 return(
                     <div className="container">
                         <div className="mobile-nav">
-                            <h3>Select a column to view:</h3>
+                            <h3>Select:</h3>
                             <select id="columns">
                                 <option value="todo">To Do</option>
                                 <option value="in-progress">In Progress</option>
@@ -192,7 +192,7 @@ class View extends React.Component {
                 return (
                     <div className="container">
                         <div className="mobile-nav">
-                            <h3>Select a column to view:</h3>
+                            <h3>Select:</h3>
                             <select id="columns">
                                 <option value="todo">To Do</option>
                                 <option value="in-progress">In Progress</option>
@@ -217,7 +217,7 @@ class View extends React.Component {
                 return(
                     <div className="container">
                         <div className="mobile-nav">
-                        <h3>Select a column to view:</h3>
+                        <h3>Select:</h3>
                         <select id="columns">
                             <option value="todo">To Do</option>
                             <option value="in-progress">In Progress</option>
