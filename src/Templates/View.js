@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Templates/Card'
+import Card from '../Templates/Card'
 
 const COLUMN_NAMES = ['todo', 'in-progress', 'review', 'done'];
 const DESKTOP_BREAKPOINT = 768;
@@ -88,7 +88,7 @@ class View extends React.Component {
             .map(post => this.renderCardColumn(post, '< More Work Required', 'Mark Done >'));
         const doneCards = this.props.tasks.done
             .map(post => this.renderCardColumn(post, '< Request Re-Review'));
-        if (his.state.breakpoint === 'computer'){
+        if (this.state.breakpoint === 'computer'){
             return(
                 <div className="container">
                     <div className="mobile-nav">

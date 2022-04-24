@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/style.css';
+import '../Css/style.css';
 
 const onCardAction = (taskId, column, callbackFn) => {
     return () => {
