@@ -45,7 +45,7 @@ class App extends  React.Component {
     const { view } = this.state;
     return (
       <div className="container">
-        <PageTabs currentView={view} onViewChange={this.onViewChange.bind(this)}/>
+        <Page currentView={view} onViewChange={this.onViewChange.bind(this)}/>
         {jsx}
       </div>
     );
@@ -83,10 +83,10 @@ class App extends  React.Component {
 
   render(){
     if (this.state.view === 'grid'){
-      return (this.wrapPage(<GridView tasks={this.state.sortedTasks} onUpdateTask={(task)=> this.onUpdateTask(task)} />));
+      return (this.wrapPage(<View tasks={this.state.sortedTasks} onUpdateTask={(task)=> this.onUpdateTask(task)} />));
     }
     else if (this.state.view === 'add') {
-      return (this.wrapPage(<AddTask tasks={this.state.sortedTasks} onSubmit={this.onAddTask.bind(this)} />));
+      return (this.wrapPage(<Add tasks={this.state.sortedTasks} onSubmit={this.onAddTask.bind(this)} />));
     }
     else {
       return (this.wrapPage(<h2>Invalid Tab, choose another</h2>));
