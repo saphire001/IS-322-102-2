@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IS-322-102-2/static/css/main.fee03485.css",
+    "main.js": "/IS-322-102-2/static/js/main.189b0c3c.js",
+    "index.html": "/IS-322-102-2/index.html",
+    "main.fee03485.css.map": "/IS-322-102-2/static/css/main.fee03485.css.map",
+    "main.189b0c3c.js.map": "/IS-322-102-2/static/js/main.189b0c3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee03485.css",
+    "static/js/main.189b0c3c.js"
+  ]
+}
